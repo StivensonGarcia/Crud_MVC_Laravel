@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    background-color: #c4c4f8;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 43px;
+    margin-bottom: 40px;
+}
+
+.links > a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 18px;
+    background-color: #1588d4;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.links > a:hover {
+    background-color: #05090c;
+}
